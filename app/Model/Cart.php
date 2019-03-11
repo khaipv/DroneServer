@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cart extends Model
 {
-    protected $table ="giohang";
+    protected $table ="gio_hang";
     public $timestamps = false;
     protected $fillable = ['ma_nguoi_dung'];
 }
