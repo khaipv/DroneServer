@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Catagory extends Model
 {
-    protected $table ="danhmuc";
+    protected $table ="danh_muc";
     public $timestamps = false;
     protected $fillable = ['ten_danh_muc'];
 }
